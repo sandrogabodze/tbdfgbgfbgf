@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @font-face {
+      font-family: "fonti";
+      src: url("fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf");
+    }
+    body {
+      margin: 0;
+      height: 100vh;
+    }
+
+    .flex {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+   .form {
+    width: 448px;
+    height: 100vh;
+    background-color:rgb(255, 255, 255);
+
+   }
+    
+   .img5 {
+    margin: left;
+    margin: 20px;
+    display: flex;
+   }
+
+   .ptag1 {
+    
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 49.1px;
+  text-align: left;
+  color: #525252;
+  margin: 0;
+   }
+
+   .ptag2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.82px;
+  text-align: left;
+  color: #525252;
+  margin: 0;
+   }
+
+   .btn1 {
+  width: 420px;
+  height: 45px;
+  border-radius: 5px;
+  border:0;
+  border: 1px  solid #E8E8E8;
+  background-image: url("image\ 2.png");
+  background-repeat: no-repeat;
+  background-position: 100px center;
+   }
+
+   .ptag3 {
+    text-align: center;
+   }
+
+   .input1 {
+  width:  414px;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid #DED2D9 ;
+  background-image: url("Vector\ \(1\).png");
+  background-repeat: no-repeat;
+  background-position: 389px;
+  outline: none;
+  padding-left: 10px;
+   }
+
+
+   .input1::placeholder {
+    position: absolute;
+    left: 10px;
+   }
+
+  .label1 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.1px;
+  text-align: left;
+  color: #828282;
+
+  }
+
+  .label2 {
+  color: #828282;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.1px;
+  text-align: left;
+  }
+
+  .input2 {
+  width:  414px;
+  height: 45px;
+  border-radius: 5px ;
+  border: 1px solid #DED2D9 ;
+  outline: none;
+  background-image: url("key\ \(1\).png");
+  background-repeat: no-repeat;
+  background-position: 340px;
+  padding-left: 10px;
+  }
+
+  .input2::placeholder {
+    position: absolute;
+    left: 10px;
+  }
+
+  .div2 {
+    display: flex;
+  }
+
+  .img4 {
+    background-color: purple;
+    width: 13px;
+    height: 13px;
+    margin-top: 10px;
+  }
+
+  .ptag4 {
+    color: #A1A1A1;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.37px;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 12px;
+  }
+
+  .ptag5 {
+    color: #7F265B;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16.37px;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 205px;
+  }
+
+  .btn2 {
+  width: 420px;
+  height:  50px;
+  border-radius: 6px;
+  background-color: #7F265B;
+  color: white;
+ border: 0;
+  }
+
+  .img6 {
+    width: 810px;
+    height: 100vh;
+    margin-right: 150px;
+    
+  }
+
+  .divii {
+    display: flex;
+  }
+
+  .ptag8 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.55px;
+  text-align: left;
+  color: #828282;
+  margin-top: 34px;
+  padding-left: 40px;
+  }
+
+  .ptag9 {
+    color: #7F265B;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24.55px;
+  text-align: left;
+  margin-left: 15px;
+  margin-top:34px ;
+  }
+
+
+  
+  @media  screen and (max-width: 768px) {
+     .form {
+      width: 100%;
+     }
+
+     .img6 {
+      display: none;
+     }
+  }
+
+  
+
+  
+  </style>
+</head>
+<body>
+  
+
+
+
+<div class="div1">
+  <div class="flex">
+    <img src="illustration.png" class="img6">
+  <form class="form">
+  
+    <img src="Group 1686550876.png" class="img5">
+      <p class="ptag1">Login to your Account</p>
+     
+      <p class="ptag2">See what is going on with your business</p> <br>
+    <button class="btn1">Continue with Google</button> 
+  <br><br>
+      <p class="ptag3">------------- or Sign in with Email ------------- </p>
+
+    <label class="label1">Email</label>
+      <input class="input1" type="email" placeholder="mail@abc.com">
+  <br><br>
+
+    <label class="label2">Password</label>
+      <input class="input2" type="password" placeholder="**********">
+
+<div class="div2">
+  <img src="Check.png" class="img4">
+      <p class="ptag4">Remember Me</p>
+      <p class="ptag5">Forgot Password?</p>
+</div>
+
+  <br>
+  <button class="btn2">Login</button>
+
+  <div class="divii">
+    <p class="ptag8">Not Reggistered Yet?</p>
+      <p class="ptag9">Create an account</p>
+    </div>
+  </form>
+</div>  
+
+  </form>
+ </div>
+</div>
+ 
+</body>
+</html>
